@@ -1,0 +1,51 @@
+.aboutimg{
+    display: flex;
+    background-image: linear-gradient(rgba(33, 34, 35, 0.9), rgba(33, 34, 35, 0.9)),url('about.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20vh;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.aboutimg h1{
+    font-size: 30vh;
+    color: white;
+    font-weight: bolder;
+}
+
+.abouttext{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.about{
+    display: flex;
+}
+
+.aboutp{
+    margin: 10vh;
+    float: right;
+}
+
+.aboutimg2 img{
+    float: left;
+    border-top-right-radius: 70vh;
+    border-bottom-right-radius: 70vh;
+    margin-top: 30vh;
+}
+
+.valuep{
+    text-align: center;
+}
+
+.valuep h1{
+    font-weight: bold;
+}
+
+.footer{
+    margin-top: 10vh;
+}

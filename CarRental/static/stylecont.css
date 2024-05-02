@@ -1,0 +1,25 @@
+.contdet{
+    background-image: url('contimg.png');
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.contdet h1{
+    font-weight: bolder;
+    padding-top: 5vh;
+    padding-left: 30vh;
+}
+
+.contdet h2{
+    padding-top: 3vh;
+    padding-left: 5vh;
+}
+
+.contdet h4{
+    padding-top: 1vh;
+    padding-left: 5vh;
+}
+

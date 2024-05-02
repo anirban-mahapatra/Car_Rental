@@ -1,0 +1,71 @@
+.footer{
+    display: flex;
+    background: black;
+    color: white;
+    width: 100%;
+}
+
+.col1{
+    margin-top: 5vh;
+    width: 65vh;
+    place-content: left;
+    margin-left: 10vh;
+}
+
+.col1 p{
+    margin-top: 5vh;
+}
+
+.socal{
+    margin:10vh ;
+    margin-top: 5vh;
+    width: 65vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.ins{
+    margin-top: 5vh;
+    width: 60vh;
+    text-align: center;
+}
+
+.x{
+    width: 5vh;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+
+.linkedin{
+    width: 8vh;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+
+.facebook{
+    width: 8vh;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+
+.youtube{
+    width: 11vh;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+
+.playimg{
+    margin-top: 2vh;
+    width: 30vh;
+    height: 10vh;
+}
+
+.appimg{
+    margin-top: 2vh;
+    width: 31vh;
+    height: 11vh;
+}
+
+col1{
+    color: blue;
+}

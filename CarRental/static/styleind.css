@@ -1,0 +1,98 @@
+.carimg{
+    background-image: linear-gradient(rgba(38, 38, 46, 0.9), rgba(38, 38, 46, 0.9)), url("front.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20vh;
+}
+
+.col{
+    width: 23%;
+}
+.row{
+    place-content: center;
+}
+.card-container{
+    width: 100vw;
+    gap:5px
+}
+
+.front {
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text input, .date input {
+    width: 100vh;
+    height: 10vh;
+    border-radius: 50vh;
+    border: none;
+    outline: none;
+    padding: 5vh;
+}
+
+.front {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.submit input {
+    margin-top: 10vh;
+    width: 205vh;
+    height: 10vh;
+    border-radius: 50vh;
+    border: none;
+    outline: none;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.front input:hover {
+    background: rgba(212, 202, 202, 0.881);
+}
+
+.front p {
+    padding-left: 5vh;
+    color: white;
+}
+
+.date, .text {
+    margin-top: 5vh;
+    display: flex;
+}
+
+.drop, .rdate {
+    margin-left: 2vh;
+}
+
+.footer{
+    margin-top: 10vh;
+}
+
+.card-img-top{
+    height: 30vh;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-around
+}
+.card-footer a{
+    justify-content: right;
+}
+
+.rs p{
+    justify-content: left;
+    align-items: center;
+}
+
+.book-car{
+    margin-left: 7vh;
+    margin-bottom: 20vh;
+    font-weight: bolder;
+}

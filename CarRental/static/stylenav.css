@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    height: 10vh;
+    background: rgba(0, 0, 0, 0.965);
+}
+
+.navbar img {
+    text-align: left;
+    padding-left: 0rem;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 0vh 3vh;
+}
+
+.navbar a:hover {
+    color: rgba(212, 202, 202, 0.881);
+}
+
+.navbar ul {
+    overflow: auto;
+    padding-left: 0rem;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
